@@ -94,6 +94,10 @@ class CursoController extends AbstractController
      */
     private function isTop(array $curso): bool
     {
+        if ($curso['opiniones'] == 0) {
+            return false;
+        }
+
         $avg = array_sum(array_map(
             function ($o) {
                 return $o['valoracion'];
