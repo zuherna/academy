@@ -20,9 +20,10 @@ class CursoController extends AbstractController
     }
 
     /**
-     * REST action que devuelve todos los grupos de carroceria por marca.
+     * REST action que obtiene la informacion de un curso a partir de su id
+     * pasado por parámetro
      *
-     * output json keys = 'id', 'name', 'name_gen_full', 'name_time_period'
+     * output json keys = 'id', 'titulo', 'descripcion', 'precio', 'opiniones', 'top'
      *
      * statusCodes = {
      *     200 = "Returned when successful",
@@ -31,7 +32,7 @@ class CursoController extends AbstractController
      *
      * @Route("/cursos/{id}", name="api_curso", methods={"GET"})
      *
-     * @param string $marcaSlug Marca slug
+     * @param int $id Id del curso a buscar
      *
      * @return JsonResponse
      */
@@ -51,7 +52,7 @@ class CursoController extends AbstractController
     }
 
     /**
-     * Devuelve la información de un curso a partir de parametro id indicado
+     * Devuelve la información de un curso a partir de su id pasado por parámetro
      * En caso de no encontrarlo, devolverá null
      *
      * @param  int    $id Id del curso a buscar
