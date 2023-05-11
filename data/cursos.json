@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "Curso de Programación",
+    "descripcion": "Aprende a programar desde cero",
+    "precio": 84
+  },
+  {
+    "id": 2,
+    "titulo": "Curso de Diseño Gráfico",
+    "descripcion": "Descubre los principios del diseño gráfico",
+    "precio": 70
+  },
+  {
+    "id": 3,
+    "name": "Symfony 5 desde cero: Desarrolla una aplicación web completa",
+    "descripcion": "Aprende a desarrollar una aplicación web completa en el framework php más potente y demandado",
+    "precio": 64.99
+  },
+  {
+    "id": 4,
+    "name": "Ultimate Python: de cero a programador experto",
+    "descripcion": "Conviértete en programador experto viendo desde lo básico hasta lo más avanzado de Python",
+    "precio": 59.99
+  }
+]

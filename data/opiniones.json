@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "curso_id": 1,
+    "usuario": "Pepe",
+    "texto": "Recomiendo este curso a todos los interesados en programación",
+    "valoracion": 5
+  },
+  {
+    "id": 2,
+    "curso_id": 1,
+    "usuario": "Daniel",
+    "texto": "Va iniciando el curso aún no puedo dar una calificación más alta",
+    "valoracion": 3
+  },
+  {
+    "id": 3,
+    "curso_id": 2,
+    "usuario": "Javi",
+    "texto": "Aprendí mucho sobre diseño gráfico en este curso",
+    "valoracion": 5
+  },
+  {
+    "id": 4,
+    "curso_id": 2,
+    "usuario": "Ana",
+    "texto": "Recomendado",
+    "valoracion": 5
+  },
+  {
+    "id": 5,
+    "curso_id": 3,
+    "usuario": "Rober",
+    "texto": "El curso muy interesante, buenas explicaciones y rápida asistencia con las dudas",
+    "valoracion": 5
+  },
+  {
+    "id": 6,
+    "curso_id": 3,
+    "usuario": "Sole",
+    "texto": "Me gusto, pero es mejor actualizar los videos mientras sale nueva versión de Symfony.",
+    "valoracion": 3
+  },
+  {
+    "id": 7,
+    "curso_id": 3,
+    "usuario": "Antonio",
+    "texto": "Un curso muy bueno para introducirte en la programación con Symfony.",
+    "valoracion": 4
+  },
+  {
+    "id": 8,
+    "curso_id": 4,
+    "usuario": "Juan Manuel",
+    "texto": "Fue muy buena elección, sin tanta paja, directo simple y bien explicado aunque falta complementar con algunas cosas",
+    "valoracion": 3
+  },
+  {
+    "id": 9,
+    "curso_id": 4,
+    "usuario": "Cesar",
+    "texto": "Buen contenido, buena didáctica. No esperaba menos. Muy satisfecho con el curso.",
+    "valoracion": 5
+  },
+  {
+    "id": 10,
+    "curso_id": 4,
+    "usuario": "Sara",
+    "texto": "Muy bueno el curso",
+    "valoracion": 4
+  }
+]
