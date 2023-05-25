@@ -20,7 +20,7 @@ class CursoControllerTest extends WebTestCase
     public function testPageNotFound(): void
     {
         $client = static::createClient();
-        $crawler = $client->request('GET', '/api/cursos/5');
+        $crawler = $client->request('GET', '/api/cursos/6');
 
         $this->assertEquals(404, $client->getResponse()->getStatusCode());
         $this->assertTrue($client->getResponse()->isNotFound());
