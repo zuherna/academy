@@ -55,7 +55,7 @@ Si se hace por Postman mirar en consola donde está levantado el Development Ser
 
 Para los datos hemos utilizado los siguientes ficheros :
 cursos.json y opiniones.json (ubicados en directorio "data" en la raíz del proyecto)
-{id} válidos : 1, 2, 3 y 4
+{id} válidos : 1, 2, 3, 4 y 5
 ```
 
 ## Ejecutando las pruebas ⚙️

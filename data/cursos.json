@@ -22,5 +22,11 @@
     "name": "Ultimate Python: de cero a programador experto",
     "descripcion": "Conviértete en programador experto viendo desde lo básico hasta lo más avanzado de Python",
     "precio": 59.99
+  },
+  {
+    "id": 5,
+    "name": "Curso de Programación Orientada a Objetos: POO",
+    "descripcion": "Aprende la Programación Orientada a Objetos con Java y Netbeans en tiempo record!",
+    "precio": 59.99
   }
 ]

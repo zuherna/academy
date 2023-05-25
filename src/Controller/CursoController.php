@@ -95,7 +95,7 @@ class CursoController extends AbstractController
      */
     private function isTop(array $curso): bool
     {
-        if ($curso['opiniones'] == 0) {
+        if (empty($curso['opiniones'])) {
             return false;
         }
 
